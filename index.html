@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Create a Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+  </head>
+
+  <body>
+    <h1>Kung Fu Panda Trivia</h1>
+    <hr />
+
+    <p class="question">Question 1</p>
+    <p>Who teaches Po kung fu?</p>
+    <img class="img" src="img/Po.png" alt="Po" />
+    <p>Answer: <input type="text" id="ans-1" /> <span id="input1"></span></p>
+    <hr />
+
+    <p class="question">Question 2</p>
+    <p>Name one of the members of the Furious Five.</p>
+    <img class="img" src="img/Furiousfive.png" alt="Furious Five" />
+    <p>Answer: <input type="text" id="ans-2" /><span id="input2"></span></p>
+    <hr />
+
+    <p class="question">Question 3</p>
+    <p>What is written on the Dragon scroll?</p>
+    <img class="img" src="img/scroll.png" alt="Dragon Scroll" />
+    <p>Answer: <input type="text" id="ans-3" /><span id="input3"></span></p>
+    <hr />
+
+    <p class="question">Question 4</p>
+    <p>Who becomes the Dragon Warrior?</p>
+    <img class="img" src="img/kungfupanda.png" alt="Kung Fu Panda" />
+    <p>Answer: <input type="text" id="ans-4" /><span id="input4"></span></p>
+    <hr />
+
+    <button id="btn-in">Mark Quiz</button>
+    <p>
+      Your Score:<span id="total">0</span>/4 <span id="percent-in">(---%)</span>
+    </p>
+    <p id="feedback-in"></p>
+    <hr />
+  </body>
+</html>
